@@ -1,4 +1,5 @@
 import { createStore } from 'vuex';
+import ContadorView from '@/components/ContadorView.vue';
 
 export default createStore({
   state() {
