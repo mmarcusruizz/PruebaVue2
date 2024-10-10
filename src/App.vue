@@ -1,7 +1,7 @@
 
 <template>
   <header>
-    <div>
+    <div id="app">
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
@@ -11,10 +11,16 @@
   </header>
 
   <RouterView />
+  <contador-view />
 </template>
 
+
 <script>
+
+
+
 export default {
+ 
   name: 'App'
 }
 </script>
