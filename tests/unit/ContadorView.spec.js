@@ -2,6 +2,8 @@ import { shallowMount } from '@vue/test-utils';
 import ContadorView from '@/components/ContadorView.vue';
 import { createStore } from 'vuex'; // Asegúrate de importar createStore
 
+console.log(require.resolve('@/components/ContadorView.vue')) 
+
 describe('ContadorView.vue', () => {
   let store;
 
