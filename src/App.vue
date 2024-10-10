@@ -12,15 +12,15 @@
 
   <RouterView />
   <contador-view />
+  <parent-view />
 </template>
 
 
 <script>
-
-
+import ParentView from './components/ParentView.vue'
 
 export default {
- 
+  components: { ParentView },
   name: 'App'
 }
 </script>
